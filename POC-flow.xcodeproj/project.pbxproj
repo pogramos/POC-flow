@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6865C3520ACB9C2005362B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6865C3420ACB9C2005362B7 /* AppDelegate.swift */; };
+		E6865C3720ACB9C2005362B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6865C3620ACB9C2005362B7 /* ViewController.swift */; };
+		E6865C3A20ACB9C2005362B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6865C3820ACB9C2005362B7 /* Main.storyboard */; };
+		E6865C3D20ACB9C2005362B7 /* POC_flow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6865C3B20ACB9C2005362B7 /* POC_flow.xcdatamodeld */; };
+		E6865C3F20ACB9C5005362B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6865C3E20ACB9C5005362B7 /* Assets.xcassets */; };
+		E6865C4220ACB9C5005362B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6865C4020ACB9C5005362B7 /* LaunchScreen.storyboard */; };
+		E6865C4D20ACB9C5005362B7 /* POC_flowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6865C4C20ACB9C5005362B7 /* POC_flowTests.swift */; };
+		E6865C5820ACB9C5005362B7 /* POC_flowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6865C5720ACB9C5005362B7 /* POC_flowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6865C4920ACB9C5005362B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6865C2920ACB9C2005362B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6865C3020ACB9C2005362B7;
+			remoteInfo = "POC-flow";
+		};
+		E6865C5420ACB9C5005362B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6865C2920ACB9C2005362B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6865C3020ACB9C2005362B7;
+			remoteInfo = "POC-flow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6865C3120ACB9C2005362B7 /* POC-flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC-flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6865C3420ACB9C2005362B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6865C3620ACB9C2005362B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6865C3920ACB9C2005362B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6865C3C20ACB9C2005362B7 /* POC_flow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = POC_flow.xcdatamodel; sourceTree = "<group>"; };
+		E6865C3E20ACB9C5005362B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6865C4120ACB9C5005362B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6865C4320ACB9C5005362B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6865C4820ACB9C5005362B7 /* POC-flowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-flowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6865C4C20ACB9C5005362B7 /* POC_flowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_flowTests.swift; sourceTree = "<group>"; };
+		E6865C4E20ACB9C5005362B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6865C5320ACB9C5005362B7 /* POC-flowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-flowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6865C5720ACB9C5005362B7 /* POC_flowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_flowUITests.swift; sourceTree = "<group>"; };
+		E6865C5920ACB9C5005362B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6865C2E20ACB9C2005362B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6865C4520ACB9C5005362B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6865C5020ACB9C5005362B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6865C2820ACB9C2005362B7 = {
+			isa = PBXGroup;
+			children = (
+				E6865C3320ACB9C2005362B7 /* POC-flow */,
+				E6865C4B20ACB9C5005362B7 /* POC-flowTests */,
+				E6865C5620ACB9C5005362B7 /* POC-flowUITests */,
+				E6865C3220ACB9C2005362B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6865C3220ACB9C2005362B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6865C3120ACB9C2005362B7 /* POC-flow.app */,
+				E6865C4820ACB9C5005362B7 /* POC-flowTests.xctest */,
+				E6865C5320ACB9C5005362B7 /* POC-flowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6865C3320ACB9C2005362B7 /* POC-flow */ = {
+			isa = PBXGroup;
+			children = (
+				E6865C3420ACB9C2005362B7 /* AppDelegate.swift */,
+				E6865C3620ACB9C2005362B7 /* ViewController.swift */,
+				E6865C3820ACB9C2005362B7 /* Main.storyboard */,
+				E6865C3E20ACB9C5005362B7 /* Assets.xcassets */,
+				E6865C4020ACB9C5005362B7 /* LaunchScreen.storyboard */,
+				E6865C4320ACB9C5005362B7 /* Info.plist */,
+				E6865C3B20ACB9C2005362B7 /* POC_flow.xcdatamodeld */,
+			);
+			path = "POC-flow";
+			sourceTree = "<group>";
+		};
+		E6865C4B20ACB9C5005362B7 /* POC-flowTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6865C4C20ACB9C5005362B7 /* POC_flowTests.swift */,
+				E6865C4E20ACB9C5005362B7 /* Info.plist */,
+			);
+			path = "POC-flowTests";
+			sourceTree = "<group>";
+		};
+		E6865C5620ACB9C5005362B7 /* POC-flowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6865C5720ACB9C5005362B7 /* POC_flowUITests.swift */,
+				E6865C5920ACB9C5005362B7 /* Info.plist */,
+			);
+			path = "POC-flowUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6865C3020ACB9C2005362B7 /* POC-flow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6865C5C20ACB9C5005362B7 /* Build configuration list for PBXNativeTarget "POC-flow" */;
+			buildPhases = (
+				E6865C2D20ACB9C2005362B7 /* Sources */,
+				E6865C2E20ACB9C2005362B7 /* Frameworks */,
+				E6865C2F20ACB9C2005362B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POC-flow";
+			productName = "POC-flow";
+			productReference = E6865C3120ACB9C2005362B7 /* POC-flow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6865C4720ACB9C5005362B7 /* POC-flowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6865C5F20ACB9C5005362B7 /* Build configuration list for PBXNativeTarget "POC-flowTests" */;
+			buildPhases = (
+				E6865C4420ACB9C5005362B7 /* Sources */,
+				E6865C4520ACB9C5005362B7 /* Frameworks */,
+				E6865C4620ACB9C5005362B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6865C4A20ACB9C5005362B7 /* PBXTargetDependency */,
+			);
+			name = "POC-flowTests";
+			productName = "POC-flowTests";
+			productReference = E6865C4820ACB9C5005362B7 /* POC-flowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6865C5220ACB9C5005362B7 /* POC-flowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6865C6220ACB9C5005362B7 /* Build configuration list for PBXNativeTarget "POC-flowUITests" */;
+			buildPhases = (
+				E6865C4F20ACB9C5005362B7 /* Sources */,
+				E6865C5020ACB9C5005362B7 /* Frameworks */,
+				E6865C5120ACB9C5005362B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6865C5520ACB9C5005362B7 /* PBXTargetDependency */,
+			);
+			name = "POC-flowUITests";
+			productName = "POC-flowUITests";
+			productReference = E6865C5320ACB9C5005362B7 /* POC-flowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6865C2920ACB9C2005362B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Progeekt;
+				TargetAttributes = {
+					E6865C3020ACB9C2005362B7 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					E6865C4720ACB9C5005362B7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E6865C3020ACB9C2005362B7;
+					};
+					E6865C5220ACB9C5005362B7 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E6865C3020ACB9C2005362B7;
+					};
+				};
+			};
+			buildConfigurationList = E6865C2C20ACB9C2005362B7 /* Build configuration list for PBXProject "POC-flow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6865C2820ACB9C2005362B7;
+			productRefGroup = E6865C3220ACB9C2005362B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6865C3020ACB9C2005362B7 /* POC-flow */,
+				E6865C4720ACB9C5005362B7 /* POC-flowTests */,
+				E6865C5220ACB9C5005362B7 /* POC-flowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6865C2F20ACB9C2005362B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6865C4220ACB9C5005362B7 /* LaunchScreen.storyboard in Resources */,
+				E6865C3F20ACB9C5005362B7 /* Assets.xcassets in Resources */,
+				E6865C3A20ACB9C2005362B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6865C4620ACB9C5005362B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6865C5120ACB9C5005362B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6865C2D20ACB9C2005362B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6865C3720ACB9C2005362B7 /* ViewController.swift in Sources */,
+				E6865C3D20ACB9C2005362B7 /* POC_flow.xcdatamodeld in Sources */,
+				E6865C3520ACB9C2005362B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6865C4420ACB9C5005362B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6865C4D20ACB9C5005362B7 /* POC_flowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6865C4F20ACB9C5005362B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6865C5820ACB9C5005362B7 /* POC_flowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6865C4A20ACB9C5005362B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6865C3020ACB9C2005362B7 /* POC-flow */;
+			targetProxy = E6865C4920ACB9C5005362B7 /* PBXContainerItemProxy */;
+		};
+		E6865C5520ACB9C5005362B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6865C3020ACB9C2005362B7 /* POC-flow */;
+			targetProxy = E6865C5420ACB9C5005362B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6865C3820ACB9C2005362B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6865C3920ACB9C2005362B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6865C4020ACB9C5005362B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6865C4120ACB9C5005362B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6865C5A20ACB9C5005362B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6865C5B20ACB9C5005362B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6865C5D20ACB9C5005362B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5EZY468C5;
+				INFOPLIST_FILE = "POC-flow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.progeekt.POC-flow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6865C5E20ACB9C5005362B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5EZY468C5;
+				INFOPLIST_FILE = "POC-flow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.progeekt.POC-flow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6865C6020ACB9C5005362B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5EZY468C5;
+				INFOPLIST_FILE = "POC-flowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.progeekt.POC-flowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-flow.app/POC-flow";
+			};
+			name = Debug;
+		};
+		E6865C6120ACB9C5005362B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5EZY468C5;
+				INFOPLIST_FILE = "POC-flowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.progeekt.POC-flowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-flow.app/POC-flow";
+			};
+			name = Release;
+		};
+		E6865C6320ACB9C5005362B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5EZY468C5;
+				INFOPLIST_FILE = "POC-flowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.progeekt.POC-flowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-flow";
+			};
+			name = Debug;
+		};
+		E6865C6420ACB9C5005362B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5EZY468C5;
+				INFOPLIST_FILE = "POC-flowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.progeekt.POC-flowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-flow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6865C2C20ACB9C2005362B7 /* Build configuration list for PBXProject "POC-flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6865C5A20ACB9C5005362B7 /* Debug */,
+				E6865C5B20ACB9C5005362B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6865C5C20ACB9C5005362B7 /* Build configuration list for PBXNativeTarget "POC-flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6865C5D20ACB9C5005362B7 /* Debug */,
+				E6865C5E20ACB9C5005362B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6865C5F20ACB9C5005362B7 /* Build configuration list for PBXNativeTarget "POC-flowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6865C6020ACB9C5005362B7 /* Debug */,
+				E6865C6120ACB9C5005362B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6865C6220ACB9C5005362B7 /* Build configuration list for PBXNativeTarget "POC-flowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6865C6320ACB9C5005362B7 /* Debug */,
+				E6865C6420ACB9C5005362B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E6865C3B20ACB9C2005362B7 /* POC_flow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E6865C3C20ACB9C2005362B7 /* POC_flow.xcdatamodel */,
+			);
+			currentVersion = E6865C3C20ACB9C2005362B7 /* POC_flow.xcdatamodel */;
+			path = POC_flow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E6865C2920ACB9C2005362B7 /* Project object */;
+}
