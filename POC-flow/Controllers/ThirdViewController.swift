@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewControllerViewController.swift
 //  POC-flow
 //
 //  Created by Guilherme on 5/16/18.
@@ -8,18 +8,18 @@
 
 import UIKit
 
-class FirstViewController: BaseViewController {
+class ThirdViewController: BaseViewController {
 
     class func instance() -> Self {
         return instance(from: "Controllers")
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        step = "Step 1"
+        step = "Step 3"
     }
 
     @IBAction func doneAction(_ sender: Any) {
-        nextViewController.onNext(SecondViewController.instance())
+        finish.onNext(true)
     }
 }

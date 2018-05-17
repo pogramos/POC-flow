@@ -20,15 +20,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         bindTableView()
+        bindAddButton()
+
     }
 
     fileprivate func bindTableView() {
         steps.asObservable().bind(to: tableView.rx.items(cellIdentifier: "Cell")) { row, element, cell in
             cell.textLabel?.text = element
         }.disposed(by: disposeBag)
-
-        steps.value.append("Step 1")
     }
 
     fileprivate func bindAddButton() {
@@ -39,13 +40,14 @@ class ViewController: UIViewController {
                     return
                 }
 
-                guard let viewController = FirstViewController.instance() else {
-                    fatalError("")
-                }
+                let viewController = FirstViewController.instance()
 
-                viewController.done.subscribe(<#T##observer: ObserverType##ObserverType#>)
+                viewController.finish.subscribe(onNext: { [weak self] done in
+                    self?.steps.value.append(viewController.step!)
+                    viewController.navigationController?.popViewController(animated: true)
+                }).disposed(by: strongSelf.disposeBag)
 
-                
+                strongSelf.navigationController?.pushViewController(viewController, animated: true)
         }.disposed(by: disposeBag)
     }
 }

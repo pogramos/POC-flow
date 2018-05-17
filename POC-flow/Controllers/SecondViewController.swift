@@ -9,15 +9,17 @@
 import UIKit
 
 class SecondViewController: BaseViewController {
-    override var storyboardName: String {
-        return "Controllers"
+
+    class func instance() -> Self {
+        return instance(from: "Controllers")
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         step = "Step 2"
     }
 
     @IBAction func doneAction(_ sender: Any) {
-        finish.onNext(true)
+        nextViewController.onNext(ThirdViewController.instance())
     }
 }
